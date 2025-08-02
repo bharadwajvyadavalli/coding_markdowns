@@ -1,107 +1,75 @@
 # Comprehensive Algorithms Collection
 
-This repository contains implementations of 70+ algorithms with detailed comments and time/space complexity analysis. The algorithms are organized into three Python files for better readability and maintenance.
+This repository contains implementations of 200+ algorithms organized by difficulty level, with detailed comments and time/space complexity analysis. The algorithms are organized into four Python files for better readability and maintenance.
 
 ## 📁 File Organization
 
-### `algorithms.py` - Part 1
-**Array Algorithms & Binary Search Trees**
-- Three Number Sum
-- Smallest Difference
-- Move Element To End
-- Monotonic Array
-- Spiral Traverse
-- Longest Peak
-- Array Of Products
-- First Duplicate Value
-- Merge Overlapping Intervals
-- Best Seat
-- Zero Sum Subarray
-- Missing Numbers
-- Majority Element
-- Sweet And Savory
-- BST Construction
-- Validate BST
-- BST Traversal
-- Min Height BST
-- Find Kth Largest Value In BST
-- Reconstruct BST
-- Invert Binary Tree
-- Binary Tree Diameter
-- Find Successor
-- Height Balanced Binary Tree
-- Merge Binary Trees
-- Symmetrical Tree
-- Split Binary Tree
+### `easy_solutions.py` - Easy Level Algorithms
+**30 fundamental algorithms covering basic data structures and common problems**
+- **Array & String Problems**: Two Number Sum, Valid Subsequence, Sorted Squared Array, Tournament Winner
+- **Binary Search Trees**: Find Closest Value, Branch Sums, Node Depths, Evaluate Expression Tree
+- **Graphs**: Depth First Search
+- **Greedy Algorithms**: Minimum Waiting Time, Class Photos, Tandem Bicycle, Optimal Freelancing
+- **Linked Lists**: Remove Duplicates, Middle Node
+- **Dynamic Programming**: Nth Fibonacci (iterative & recursive), Product Sum
+- **Search**: Binary Search, Find Three Largest Numbers
+- **Sorting**: Bubble Sort, Insertion Sort, Selection Sort
+- **String Manipulation**: Palindrome Check, Caesar Cipher, Run Length Encoding, Common Characters
+- **Document Processing**: Generate Document, First Non-Repeating Character, Semordnilap
 
-### `algorithms_part2.py` - Part 2
-**Dynamic Programming, Graphs, Heaps & Linked Lists**
-- Max Subset Sum No Adjacent
-- Number Of Ways To Make Change
-- Min Number Of Coins For Change
-- Levenshtein Distance
-- Number Of Ways To Traverse Graph
-- Kadane's Algorithm
-- Stable Internships
-- Union Find
-- Single Cycle Check
-- Breadth-first Search
-- River Sizes
-- Youngest Common Ancestor
-- Remove Islands
-- Cycle In Graph
-- Minimum Passes Of Matrix
-- Two-Colorable
-- Task Assignment
-- Valid Starting City
-- Min Heap Construction
-- Linked List Construction
-- Remove Kth Node From End
-- Sum of Linked Lists
-- Merging Linked Lists
+### `medium_algorithms.py` - Medium Level Algorithms
+**70+ intermediate algorithms covering advanced data structures and techniques**
+- **Array Algorithms**: Three Number Sum, Smallest Difference, Move Element To End, Monotonic Array, Spiral Traverse, Longest Peak, Array Of Products, First Duplicate Value, Merge Overlapping Intervals, Best Seat, Zero Sum Subarray, Missing Numbers, Majority Element, Sweet And Savory
+- **Binary Search Trees**: BST Construction, Validate BST, BST Traversal, Min Height BST, Find Kth Largest Value, Reconstruct BST, Invert Binary Tree, Binary Tree Diameter, Find Successor, Height Balanced Binary Tree, Merge Binary Trees, Symmetrical Tree, Split Binary Tree
+- **Dynamic Programming**: Max Subset Sum No Adjacent, Number Of Ways To Make Change, Min Number Of Coins For Change, Levenshtein Distance, Number Of Ways To Traverse Graph, Kadane's Algorithm
+- **Graph Algorithms**: Stable Internships, Union Find, Single Cycle Check, Breadth-first Search, River Sizes, Youngest Common Ancestor, Remove Islands, Cycle In Graph, Minimum Passes Of Matrix, Two-Colorable, Task Assignment, Valid Starting City
+- **Data Structures**: Min Heap Construction, Linked List Construction, Remove Kth Node From End, Sum of Linked Lists, Merging Linked Lists
+- **Recursion & Backtracking**: Permutations, Powerset, Phone Number Mnemonics, Staircase Traversal, Blackjack Probability, Reveal Minesweeper
+- **Matrix & Stack**: Search In Sorted Matrix, Three Number Sort, Min Max Stack Construction, Balanced Brackets, Sunset Views, Best Digits, Sort Stack, Next Greater Element, Reverse Polish Notation, Colliding Asteroids
+- **String Algorithms**: Longest Palindromic Substring, Group Anagrams, Valid IP Addresses, Reverse Words In String, Minimum Characters For Words, One Edit, Suffix Trie Construction
 
-### `algorithms_part3.py` - Part 3
-**Recursion, Backtracking, Stacks & Strings**
-- Permutations
-- Powerset
-- Phone Number Mnemonics
-- Staircase Traversal
-- Blackjack Probability
-- Reveal Minesweeper
-- Search In Sorted Matrix
-- Three Number Sort
-- Min Max Stack Construction
-- Balanced Brackets
-- Sunset Views
-- Best Digits
-- Sort Stack
-- Next Greater Element
-- Reverse Polish Notation
-- Colliding Asteroids
-- Longest Palindromic Substring
-- Group Anagrams
-- Valid IP Addresses
-- Reverse Words In String
-- Minimum Characters For Words
-- One Edit
-- Suffix Trie Construction
+### `advanced_algorithms.py` - Advanced Level Algorithms
+**60+ complex algorithms covering advanced techniques and optimization**
+- **Array & Matrix**: Four Number Sum, Subarray Sort, Largest Range, Min Rewards, Zigzag Traverse, Longest Subarray With Sum, Count Squares
+- **Binary Search Trees**: Same BSTs, Validate Three Nodes, Repair BST, Sum BSTs, Max Path Sum In Binary Tree, Find Nodes Distance K
+- **Dynamic Programming**: Max Sum Increasing Subsequence, Longest Common Subsequence, Min Number Of Jumps, Water Area, Knapsack Problem, Disk Stacking, Numbers In Pi, Maximum Sum Submatrix, Maximize Expression, Dice Throws, Juice Bottling
+- **Graph Algorithms**: Dijkstra's Algorithm, Topological Sort, Kruskal's Algorithm, Prim's Algorithm, Boggle Board, Largest Island
+- **Linked Lists**: Continuous Median, Sort K Sorted Array, Laptop Rentals, Find Loop, Reverse Linked List, Merge Linked Lists, Shift Linked List
+- **Tree Algorithms**: Lowest Common Manager, Interweaving Strings, Solve Sudoku, Generate Div Tags, Ambiguous Measurements
+- **Search & Sort**: Shifted Binary Search, Search For Range, Quickselect, Index Equals Value, Quick Sort, Heap Sort, Radix Sort
+- **String & Path**: Shorten Path, Largest Rectangle Under Skyline, Longest Substring Without Duplication, Underscorify Substring, Pattern Matcher, Multi String Search, Longest Most Frequent Prefix, Shortest Unique Prefixes
+
+### `very_advanced_algorithms.py` - Very Advanced Level Algorithms
+**40+ expert-level algorithms covering cutting-edge techniques**
+- **Optimization Problems**: Apartment Hunting, Calendar Matching, Waterfall Streams, Minimum Area Rectangle, Line Through Points, Right Smaller Than
+- **Tree Traversals**: Iterative Inorder Traversal, Flatten Binary Tree, Right Sibling Tree, All Kinds Of Node Depths, Compare Leaf Traversal
+- **Advanced Dynamic Programming**: Max Profit With K Transactions, Palindrome Partitioning Min Cuts, Longest Increasing Subsequence, Longest String Chain
+- **Matrix & Geometry**: Square Of Zeroes, Rectangle Mania
+- **String Algorithms**: Knuth-Morris-Pratt Algorithm, Longest Balanced Substring, Smallest Substring Containing, Strings Made Up Of Strings
+- **Graph Algorithms**: A* Algorithm, Detect Arbitrage, Two Edge Connected Graph, Airport Connections
+- **Data Structures**: Merge Sorted Arrays, LRU Cache, Rearrange Linked List, Linked List Palindrome, Reverse Linked List, Zip Linked List, Node Swap
+- **Combinatorics**: Number Of Binary Tree Topologies, Non Attacking Queens
+- **Advanced Search**: Median Of Two Sorted Arrays, Optimal Assembly Line
+- **Sorting & Analysis**: Merge Sort, Count Inversions, Largest Park, Largest Rectangle In Histogram
 
 ## 🚀 Quick Start
 
 ### Running All Tests
 ```bash
 # Run all algorithm tests
-python algorithms.py
-python algorithms_part2.py
-python algorithms_part3.py
+python easy_solutions.py
+python medium_algorithms.py
+python advanced_algorithms.py
+python very_advanced_algorithms.py
 ```
 
 ### Using Individual Algorithms
 ```python
 # Import specific algorithms
-from algorithms import three_number_sum, smallest_difference
-from algorithms_part2 import max_subset_sum_no_adjacent, kadane_algorithm
-from algorithms_part3 import permutations, longest_palindromic_substring
+from easy_solutions import two_number_sum, binary_search
+from medium_algorithms import three_number_sum, validate_bst
+from advanced_algorithms import four_number_sum, dijkstra_algorithm
+from very_advanced_algorithms import apartment_hunting, calendar_matching
 
 # Example usage
 array = [12, 3, 1, 2, -6, 5, -8, 6]
@@ -110,49 +78,37 @@ result = three_number_sum(array, target)
 print(f"Three Number Sum: {result}")
 ```
 
-## 📊 Algorithm Categories
+## 📊 Algorithm Categories by Difficulty
 
-### Array Manipulation
-- **Two Pointers**: Three Number Sum, Smallest Difference, Move Element To End
-- **Sliding Window**: Longest Peak, Best Seat
-- **Prefix Sum**: Zero Sum Subarray, Array Of Products
-- **Sorting**: Monotonic Array, Merge Overlapping Intervals
+### Easy Level (30 algorithms)
+- **Basic Data Structures**: Arrays, Strings, BSTs, Linked Lists
+- **Simple Algorithms**: Two pointers, basic traversal, greedy approaches
+- **Common Problems**: Search, sorting, string manipulation
+- **Time Complexity**: Mostly O(n) to O(n²)
+- **Space Complexity**: Mostly O(1) to O(n)
 
-### Binary Search Trees
-- **Construction**: BST Construction, Min Height BST, Reconstruct BST
-- **Traversal**: BST Traversal (Inorder, Preorder, Postorder)
-- **Validation**: Validate BST, Height Balanced Binary Tree
-- **Operations**: Find Kth Largest, Find Successor, Invert Binary Tree
+### Medium Level (70+ algorithms)
+- **Advanced Data Structures**: Heaps, Graphs, Stacks, Tries
+- **Complex Techniques**: Dynamic programming, backtracking, graph traversal
+- **Optimization Problems**: Path finding, scheduling, matching
+- **Time Complexity**: O(n log n) to O(n³)
+- **Space Complexity**: O(n) to O(n²)
 
-### Dynamic Programming
-- **1D DP**: Max Subset Sum No Adjacent, Number Of Ways To Make Change
-- **2D DP**: Levenshtein Distance, Number Of Ways To Traverse Graph
-- **Optimization**: Min Number Of Coins For Change, Kadane's Algorithm
+### Advanced Level (60+ algorithms)
+- **Expert Techniques**: Advanced DP, graph algorithms, tree manipulation
+- **Optimization**: Complex state management, memoization, pruning
+- **Specialized Algorithms**: Geometry, matrix operations, advanced sorting
+- **Time Complexity**: O(n log n) to O(2^n)
+- **Space Complexity**: O(n) to O(2^n)
 
-### Graph Algorithms
-- **Traversal**: Breadth-first Search, River Sizes
-- **Cycle Detection**: Single Cycle Check, Cycle In Graph
-- **Connectivity**: Remove Islands, Two-Colorable
-- **Matching**: Stable Internships
+### Very Advanced Level (40+ algorithms)
+- **Cutting-Edge Techniques**: Advanced optimization, complex graph algorithms
+- **Research-Level Problems**: NP-hard problems, advanced combinatorics
+- **Specialized Domains**: Computational geometry, advanced string processing
+- **Time Complexity**: O(n log n) to O(n!)
+- **Space Complexity**: O(n) to O(n!)
 
-### Data Structures
-- **Heaps**: Min Heap Construction
-- **Linked Lists**: Linked List Construction, Remove Kth Node, Sum of Lists
-- **Stacks**: Min Max Stack, Balanced Brackets, Sort Stack
-- **Tries**: Suffix Trie Construction
-
-### Recursion & Backtracking
-- **Combinatorics**: Permutations, Powerset, Phone Number Mnemonics
-- **Path Finding**: Staircase Traversal
-- **Game Theory**: Blackjack Probability, Reveal Minesweeper
-
-### String Algorithms
-- **Palindrome**: Longest Palindromic Substring
-- **Anagrams**: Group Anagrams
-- **Parsing**: Valid IP Addresses, Reverse Words In String
-- **Edit Distance**: One Edit, Minimum Characters For Words
-
-## ⏱️ Time & Space Complexity
+## ⏱️ Time & Space Complexity Analysis
 
 Each algorithm includes detailed complexity analysis:
 
@@ -195,25 +151,22 @@ test_string_algorithms()
 
 ## 📈 Performance Considerations
 
-### Time Complexity Ranges
-- **O(1)**: Constant time operations
-- **O(log n)**: Binary search, tree operations
-- **O(n)**: Linear time algorithms
-- **O(n log n)**: Sorting-based algorithms
-- **O(n²)**: Quadratic time algorithms
-- **O(2^n)**: Exponential time (powerset, some DP)
-- **O(n!)**: Factorial time (permutations)
+### Time Complexity Ranges by Difficulty
+- **Easy**: O(1) to O(n²) - Linear and quadratic time algorithms
+- **Medium**: O(n log n) to O(n³) - Sorting-based and cubic algorithms
+- **Advanced**: O(n log n) to O(2^n) - Exponential time algorithms
+- **Very Advanced**: O(n log n) to O(n!) - Factorial time algorithms
 
 ### Space Complexity Considerations
-- **O(1)**: In-place algorithms
-- **O(n)**: Linear space for result storage
-- **O(n²)**: Matrix-based algorithms
-- **O(2^n)**: Exponential space for combinatorial results
+- **Easy**: O(1) to O(n) - Mostly constant and linear space
+- **Medium**: O(n) to O(n²) - Linear and quadratic space
+- **Advanced**: O(n) to O(2^n) - Exponential space for combinatorial results
+- **Very Advanced**: O(n) to O(n!) - Factorial space for complex problems
 
 ## 🔧 Customization
 
 ### Adding New Algorithms
-1. Choose the appropriate file based on category
+1. Choose the appropriate file based on difficulty level
 2. Add the algorithm with proper documentation
 3. Include time/space complexity analysis
 4. Add test cases
